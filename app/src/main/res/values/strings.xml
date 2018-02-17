@@ -4,4 +4,10 @@
     <string name="post_parrafo">Parrafo</string>
     <string name="post_fecha">Fecha</string>
     <string name="post_next">Siguiente</string>
+    <string name="post_comentarios">Comentarios: </string>
+    <string name="comment_name">Nombre o Alias</string>
+    <string name="comment_comentario">Escribe un comentario</string>
+    <string name="comment_correo">Correo</string>
+    <string name="send">Enviar</string>
+
 </resources>
