@@ -4,32 +4,33 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_margin="20dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Titulo"
+        android:text="@string/post_title"
         android:textSize="56sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Parrafo"
+        android:text="@string/post_parrafo"
         android:textSize="20sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="textEnd"
-        android:text="Fecha"
+        android:text="@string/post_fecha"
         android:textSize="20sp"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buttonaaaaaaaaaaaaa"
+        android:text="@string/post_next"
         android:layout_gravity="end"/>
 
 
